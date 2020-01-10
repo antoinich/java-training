@@ -16,3 +16,4 @@ if [ -n "$1" ]; then
 else
     echo "Please specify the class to test, e.g. : ./tester.sh PrimitiveTraining"
 fi
+read -p "Press enter to continue"
